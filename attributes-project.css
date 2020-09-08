@@ -69,3 +69,7 @@ a > a:hover, a > span:hover {
   padding: 0 30px;
   box-sizing: content-box
 }
+
+footer {
+  float: clear;
+}
