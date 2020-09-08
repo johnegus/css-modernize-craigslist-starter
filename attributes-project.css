@@ -108,3 +108,20 @@ ul.clfooter > li {
 h4.ban::before {
   content: "☮️";
 }
+
+td {
+  border-collapse: collapse;
+  border: 1px #333 solid;
+  text-align: center;
+}
+
+.cal a {
+  color: green;
+  font-weight: bold;
+}
+
+.past{
+  color: rgba(212, 0, 255, 0.5);
+}
+
+
