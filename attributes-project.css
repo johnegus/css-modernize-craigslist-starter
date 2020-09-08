@@ -1,3 +1,4 @@
+
 .homepage #catAbb,
 .homepage #go,
 .homepage .leftlinks #cl_app_beta,
@@ -31,3 +32,29 @@ p.more {
 }
 
 /* Write your CSS here. */
+
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a > a:hover {
+
+}
+
+a > span:hover{
+
+}
