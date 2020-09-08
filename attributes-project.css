@@ -68,11 +68,11 @@ a > a:hover, a > span:hover {
 #leftbar, #center, #rightbar {
   float: left;
   padding: 0 30px;
-  box-sizing: content-box
+  box-sizing: border-box
 }
 
 footer {
-  float: clear;
+  clear: both;
 }
 
 #leftbar, #rightbar{
@@ -102,4 +102,9 @@ ul.clfooter {
 
 ul.clfooter > li {
   display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮️";
 }
